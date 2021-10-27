@@ -2,10 +2,8 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <time.h>
-
  void main() {
     setlocale(LC_ALL, "");
-
    srand((unsigned)time(NULL));
 
    //declarando variáveis
@@ -39,7 +37,6 @@ if(numero_secreto < tentativa)  {
     return(0); }
 }
 }
-
     //NIVEL 2
     case 2: {
 for(;;){
